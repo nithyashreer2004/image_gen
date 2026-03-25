@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://image-generator-nine-pink.vercel.app"
+        "image-gen-kohl-iota.vercel.app"
     ],
     credentials: true
 }));
